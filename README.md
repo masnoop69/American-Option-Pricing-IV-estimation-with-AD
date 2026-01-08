@@ -52,7 +52,19 @@ Henceforth, the Vega at n, subsequently, is computed as such.
 
 In a similar fashion, cn+1(u) is represented by the vector outcomes of option values [C1, C2, ..., Cn-1], the first to the (n-1)th option outcome, and cn+1(d) being the vector outcomes [C2, C3, ..., CN]. The same will be done for vn+1(u) and vn+1(d).
 
+## Newton-Ralphson Method
+
+Newton-Ralphson Method is a root searching method through an iterative process. It follows as such.
+
+<img width="600" height="1400" alt="image" src="https://github.com/user-attachments/assets/5281fc30-80f3-4d54-a4cf-fe061e576c77" />
+
+Therefore, applying the same concepts to the pricing model to derive IV:
+
+<img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/8931a5a3-29c4-48f9-8c4c-884b8dbbbcdb" />
+
 ## Surface Plot
+
+Both plots look exactly the same. RMSE in this case is also very close to 0, and therefore it can be concluded that Newton's is better for IV computation, being faster and with negligible loss.
 
 Brent's
 
