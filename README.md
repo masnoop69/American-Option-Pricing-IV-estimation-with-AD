@@ -62,9 +62,11 @@ Therefore, applying the same concepts to the pricing model to derive IV:
 
 <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/8931a5a3-29c4-48f9-8c4c-884b8dbbbcdb" />
 
+Therefore, by doing this process over and over, eventually sigma at the nth trial and sigma at the (n-1)th trial will converge (that means difference between trial sigmas become very small or equal to 0), and we are able to deduce the market IV.
+
 ## Surface Plot
 
-Both plots look exactly the same. RMSE in this case is also very close to 0, and therefore it can be concluded that Newton's is better for IV computation, being faster and with negligible loss.
+We check both methods to see if the plots are any different, but also to study how IV varies with T and log-moneyness. Visually, both plots look exactly the same. RMSE in this case is also very close to 0, and therefore it can be concluded that Newton's is better for IV computation, being much faster and with negligible loss (assuming Brent's is the absolute correct value and the benchmark for evaluation).
 
 Brent's
 
