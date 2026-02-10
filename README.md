@@ -73,6 +73,8 @@ By using an recursive method of backwards calculation for each and every step N 
 
 ## Vectorizing the Calculation
 
+<img width="1969" height="1044" alt="image" src="https://github.com/user-attachments/assets/ed295fdd-ba7b-4d6e-b44f-67ca9dcd56f7" />
+
 At the final time step $N$, we observe an array representing every possible stock price outcome. Instead of calculating each node individually, we use a single operation to create the (N+1) vector $S_N$:
 
 $$\mathbf{S}_N = S_0 \cdot 
